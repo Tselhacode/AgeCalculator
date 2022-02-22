@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE5AA"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="185dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:text="CALCULATE YOUR"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#57120C"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ageTxtView"
+        android:layout_width="83dp"
+        android:layout_height="58dp"
+        android:background="#00BCD4"
+        android:text="AGE"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F8F6F6"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="27dp"
+        android:text="IN MINUTES"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#550D08"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/selectDateBtn"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:text="SELECT DATE"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="108dp"
+        android:layout_height="27dp"
+        android:text="14/9/2018"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date" />
+
+    <TextView
+        android:id="@+id/noMinsTextView"
+        android:layout_width="152dp"
+        android:layout_height="35dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="40dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="152dp"
+        android:layout_height="26dp"
+        android:text="in minutes till date"
+        android:textAlignment="center"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
